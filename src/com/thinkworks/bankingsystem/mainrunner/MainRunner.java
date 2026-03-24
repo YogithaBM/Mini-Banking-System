@@ -6,9 +6,11 @@ import com.thinkworks.bankingsystem.enums.AccountType;
 import com.thinkworks.bankingsystem.enums.TransactionType;
 import com.thinkworks.bankingsystem.service.TransactionService;
 
+import static com.thinkworks.bankingsystem.service.TransactionService.BANK_NAME;
+
 public class MainRunner {
     public static void main(String[] args) {
-
+        System.out.println(BANK_NAME);
         Account Hithaishi= new Account(23, "Nicky", 34545.87D,
                 "Nandini Layout", AccountType.SAVING_ACCOUNT);
         Account Yusra = new Account(243, "Manny", 4356.43D,

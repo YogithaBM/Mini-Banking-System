@@ -5,6 +5,7 @@ import com.thinkworks.bankingsystem.dto.Transaction;
 import com.thinkworks.bankingsystem.enums.TransactionType;
 
 public class TransactionService {
+   public static final String BANK_NAME="GIVE AND TAKE";
 
    public void accountDetails(Account account) {
       System.out.println("ID : "+account.getAccountId());
